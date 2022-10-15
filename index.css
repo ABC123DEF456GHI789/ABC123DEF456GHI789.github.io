@@ -1,0 +1,31 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navBar {
+    background-color: #ffba66;
+    overflow: hidden;
+    border: #a57d4b;
+    border-style: solid;
+    position:relative;
+    margin-bottom: 5px;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+.navBar a, .navBar p {
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+}
+.navBar a:link {
+    text-decoration: none;
+}
+.navBar a:visited {
+    text-decoration: none;
+}
+.navBar a:hover {
+    background-color: #a57d4b;
+}
